@@ -1,3 +1,9 @@
+```bash
+npx create-next-app@latest --ts
+npm i eslint@8.22.0
+npm i @reduxjs/toolkit react-redux
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
