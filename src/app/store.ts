@@ -8,7 +8,7 @@ import counterReducer from '../features/counter/counterSlice';
 
 
 const reducer = (state: any, action: PayloadAction<any>) => {
-  // hydration이 발생했을 때 처리하는 부분을 별도로 작성해줍니다.
+  // hydration이 발생했을 때 처리하는 부분을 별도로 작성
   if (action.type === HYDRATE) {
     return {
       ...state,
@@ -35,7 +35,7 @@ const store = makeStore();
 //   },
 // });
 
-// wrapper를 생성해줍니다.
+// wrapper 생성
 export const wrapper = createWrapper(makeStore, {
   debug: process.env.NODE_ENV === 'development',
 });

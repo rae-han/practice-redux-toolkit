@@ -29,7 +29,7 @@ const Home: NextPage = () => {
   );
 };
 
-// wrapper에 있는 getServerSideProps 메서드를 사용합니다.
+// wrapper에 있는 getServerSideProps 메서드를 사용
 export const getServerSideProps: GetServerSideProps =
   wrapper.getServerSideProps((store) => async () => {
     store.dispatch(increment());
