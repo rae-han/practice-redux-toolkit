@@ -28,7 +28,8 @@ const makeStore = () =>
   });
 
 
-const store = makeStore();
+const store = makeStore;
+// const store = makeStore(); // 이렇게 하면 두개 생김
 // export const store = configureStore({
 //   reducer: {
 //     counter: counterReducer,
